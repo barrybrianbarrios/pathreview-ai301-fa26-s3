@@ -27,7 +27,6 @@ def configure_test_logging():
     logging.getLogger().setLevel(logging.DEBUG)
 
 
-
 @pytest.fixture
 def sample_resume_text() -> str:
     """Return a sample resume text for testing."""
